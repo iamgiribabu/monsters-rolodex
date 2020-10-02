@@ -93,7 +93,7 @@ class App extends Component {
       searchField : ''
     }
   }
-
+  // the site blocking this API because it HTTP and this site is hosted on HTTPS  so that's why I created monsters data in array
   // componentDidMount(){
   //   fetch('http://jsonplaceholder.typicode.com/users')        
   //   .then(response => response.json())                        
