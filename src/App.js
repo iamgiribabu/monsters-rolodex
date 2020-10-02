@@ -9,16 +9,96 @@ class App extends Component {
   constructor(){
     super();
     this.state = {
-      monsters : [],
+      monsters : [{
+        name : 'sddfsgg',
+        email: 'gdfgif@gkmod.com',
+        id:1
+      },
+      {
+        name : "fgiuiouf",
+        email : "fgdfgdfd@gdf.com",
+        id : 2
+      },
+      {
+        name : "wrdfggd",
+        email : "sdhfeg@fgnf.com",
+        id : 3
+      },
+      {
+        name : "wrdfggd",
+        email : "sdhfeg@fgnf.com",
+        id : 4
+      },
+      {
+        name : "wrdfggd",
+        email : "sdhfeg@fgnf.com",
+        id : 5
+      },
+      {
+        name : "wrdfggd",
+        email : "sdhfeg@fgnf.com",
+        id : 6
+      },
+      {
+        name : "wrdfggd",
+        email : "sdhfeg@fgnf.com",
+        id : 7
+      },
+      {
+        name : "wrdfggd",
+        email : "sdhfeg@fgnf.com",
+        id : 8
+      },
+      {
+        name : "wrdfggd",
+        email : "sdhfeg@fgnf.com",
+        id : 9
+      },
+      {
+        name : "wrdfggd",
+        email : "sdhfeg@fgnf.com",
+        id : 10
+      },
+      {
+        name : "wrdfggd",
+        email : "sdhfeg@fgnf.com",
+        id : 11
+      },
+      {
+        name : "wrdfggd",
+        email : "sdhfeg@fgnf.com",
+        id : 12
+      },
+      {
+        name : "wrdfggd",
+        email : "sdhfeg@fgnf.com",
+        id : 13
+      },
+      {
+        name : "wrdfggd",
+        email : "sdhfeg@fgnf.com",
+        id : 14
+      },
+      {
+        name : "wrdfggd",
+        email : "sdhfeg@fgnf.com",
+        id : 15
+      },
+      {
+        name : "wrdfggd",
+        email : "sdhfeg@fgnf.com",
+        id : 16
+      },],
+     
       searchField : ''
     }
   }
 
-  componentDidMount(){
-    fetch('http://jsonplaceholder.typicode.com/users')        
-    .then(response => response.json())                        
-    .then(users =>this.setState({monsters : users}) )
-  }
+  // componentDidMount(){
+  //   fetch('http://jsonplaceholder.typicode.com/users')        
+  //   .then(response => response.json())                        
+  //   .then(users =>this.setState({monsters : users}) )
+  // }
 
   render(){
     const { monsters, searchField } = this.state;
